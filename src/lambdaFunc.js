@@ -14,8 +14,8 @@
  *
  * Examples:
  * One-shot model:
- *  User: "Alexa, tell Hello World to say hello"
- *  Alexa: "Hello World!"
+ * User: "what's going on in {usc|word} area"
+ * Alexa: "Try Blaze on figeuroa, or catch NFL match at LA coliseum or try a sub at whichwhich"
  */
 
 /**
@@ -138,20 +138,12 @@ HelloWorld.prototype.intentHandlers = {
     });
 
 
-
-
-        /*
-
-
-        */
         var sayThis = '';
         /*
         for(var i = intent.slots.word.value.length -1 ;i >=0 ;i--){
             sayThis += intent.slots.word.value[i];
         }
         */
-
-
 
         //http.request(options, callback).end();
 
