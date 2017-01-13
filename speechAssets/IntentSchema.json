@@ -1,0 +1,16 @@
+{
+  "intents": [
+    {
+      "intent": "HelloWorldIntent",
+            "slots": [
+        {
+          "name": "word",
+          "type": "AMAZON.LITERAL"
+        }
+        ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}

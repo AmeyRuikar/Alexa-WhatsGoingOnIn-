@@ -1,0 +1,2 @@
+HelloWorldIntent what's going on in {usc|word} area
+HelloWorldIntent what are the events in {usc|word} area
